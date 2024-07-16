@@ -56,7 +56,7 @@ This guide will walk you through setting up Apache Kafka on a Windows machine.
      ```
 
 9. **Send and Receive Messages** 💬
-   - In the producer Command Prompt window (step 7), start typing messages.
+   - In the producer Command Prompt window (step 7), start publishing messages.
    - You will see these messages being consumed in the consumer Command Prompt window (step 8).
 
 That's it! You now have Kafka running on your Windows machine, and you can start sending and receiving messages using Kafka topics. 🎊
