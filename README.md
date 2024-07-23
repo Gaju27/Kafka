@@ -41,6 +41,10 @@ This guide will walk you through setting up Apache Kafka on a Windows machine.
      ```sh
      kafka-topics.bat --create --bootstrap-server localhost:9092 --topic test_topic
      ```
+   - Run the following command to list all topics:
+     ```sh
+     .\kafka-topics.bat --list --bootstrap-server localhost:9092
+     ```
 
 7. **Start Kafka Producer** 🖋️
    - In the same Command Prompt window, run the following command to start the Kafka producer:
